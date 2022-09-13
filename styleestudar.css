@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+.main{
+    height: 6000px;
+    width: 100%;
+    background-image: url("binari.jpg");
+    color:black;
+}
+
+header{
+    width: 100%;
+    background: rgb(143,217,255);
+    background: radial-gradient(circle, rgba(143,217,255,1) 0%, rgba(41,121,143,1) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 3px 2px black;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    color:white;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: pricedown;
+    font-size: 25px;
+}
+
+#logo-texto{
+    color:white;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: pricedown;
+    font-size: 25px;
+}
+
+
+ @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  
+
+
+.menu li{
+    display: inline-block;
+
+}
+
+.menu li a{
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.menu li a:hover{
+    border-radius: 57px;
+    box-shadow:  18px 18px 32px rgba(36,187,218,1),
+                -18px -18px 32px #2df2e5;
+}
+
+
+
+
+footer{
+    width: 100%;
+    background: rgb(3,4,4);
+    background: linear-gradient(90deg, rgba(3,4,4,1) 0%, rgba(35,46,70,1) 100%);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+.texto-footer{
+    text-align: center;
+    align-items: center;
+}
+
+.main-frame{
+    height: 5505px;
+    width: 79%;
+
+    position: absolute;
+    top: 200px;
+    left: 10%;
+ 
+    border-radius: 13px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(139, 235, 195) 100%);
+    box-shadow:  10px 10px 10px #24a2d2,
+             -10px -10px 10px #24a2d2;
+    
+}
+
+.main-frame h1{
+    font-size: 35px;
+    text-shadow: 1px 3px 12px rgb(178, 227, 255);
+    font-family:fipps;
+    color:rgb(36, 36, 36);
+    text-shadow: 2px 5px 2px rgb(78, 126, 141);
+    letter-spacing: 5px;
+    -webkit-animation: tracking-in-contract 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+.main-frame {
+    padding: 5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.main-frame p{
+    text-indent: 30px;
+    font-family: tango;
+    text-align: justify;
+}
+
+.main-frame ol{
+    padding: 10%;
+    list-style-type: circle;
+}
+
+@font-face {
+    font-family: pricedown;
+    src: url(pricedown\ bl.otf);
+}
+
+@font-face {
+    font-family: fipps;
+    src: url(Fipps-Regular.otf);
+}
+
+@font-face {
+    font-family: computerfont;
+    src: url(Computerfont.ttf);
+}
+
+@font-face {
+    font-family: tango;
+    src: url("TangoSans.ttf");
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.imagens img{
+    width: 30%;
+    border-radius: 3px;
+    box-shadow:  13px 13px 15px #3d3d3d,
+             -13px -13px 15px #c9c9c9;
+}
+
+.problemas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.problemas img{
+    width: 100%;
+    border-radius: 3px;
+    box-shadow:  13px 13px 15px #3d3d3d,
+             -13px -13px 15px #c9c9c9;
+}
+
+*{
+    text-decoration: none;
+}
+
+a{
+    color:rgb(136, 22, 22);
+}
+
+.imgs img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-frame h2, h4{
+    text-align: justify;
+}
+
+li{
+    text-align: justify;
+}
+
